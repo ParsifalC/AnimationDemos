@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8B32436EC4943DD8239F0F515C7579A4F89C40F1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8B32436EC4943DD8239F0F515C7579A4F89C40F1" : 9223372036854775807,
+    "D981233A373AD7BEEE85373EC8E7B4560664237D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "38987E0E-77D9-41F4-BE32-BACAEC15DA12",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8B32436EC4943DD8239F0F515C7579A4F89C40F1" : "AnimationDemos\/",
+    "D981233A373AD7BEEE85373EC8E7B4560664237D" : "CPCollectionViewWheelLayoutSwift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AnimationDemos",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AnimationDemos.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ParsifalC\/AnimationDemos.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B32436EC4943DD8239F0F515C7579A4F89C40F1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ParsifalC\/CPCollectionViewWheelLayoutSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D981233A373AD7BEEE85373EC8E7B4560664237D"
+    }
+  ]
+}
