@@ -22,8 +22,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODU-v0-q20">
-                                <rect key="frame" x="162.5" y="318" width="49" height="30"/>
+                                <rect key="frame" x="137" y="318" width="100" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.90083705357142863" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ObB-QA-RWF"/>
+                                </constraints>
                                 <state key="normal" title="display">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>

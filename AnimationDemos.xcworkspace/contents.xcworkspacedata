@@ -4,4 +4,7 @@
    <FileRef
       location = "group:TransitionViewDemo/TransitionViewDemo.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:LabelTransitionAnimations/LabelTransitionAnimations.xcodeproj">
+   </FileRef>
 </Workspace>
