@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TransitionViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KeezyButtonDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,32 +21,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODU-v0-q20">
-                                <rect key="frame" x="137" y="318" width="100" height="30"/>
-                                <color key="backgroundColor" red="0.0" green="0.90083705357142863" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vm-eX-sjR" customClass="CPScalableButton" customModule="KeezyButtonDemo" customModuleProvider="target">
+                                <rect key="frame" x="137" y="283" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.90083705359999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="ObB-QA-RWF"/>
+                                    <constraint firstAttribute="height" constant="100" id="PjQ-9m-hdJ"/>
+                                    <constraint firstAttribute="width" constant="100" id="X4I-zM-Koj"/>
                                 </constraints>
-                                <state key="normal" title="display">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="TouchMe">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="8"/>
+                                        <integer key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.maskToBounds">
-                                        <integer key="value" value="0"/>
-                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hcq-r0-H7c"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ODU-v0-q20" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DNE-Ow-ASP"/>
-                            <constraint firstItem="ODU-v0-q20" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OtC-GI-zEx"/>
+                            <constraint firstItem="1Vm-eX-sjR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8d3-sj-hMD"/>
+                            <constraint firstItem="1Vm-eX-sjR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ftY-39-fEE"/>
                         </constraints>
                     </view>
                 </viewController>

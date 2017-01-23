@@ -7,4 +7,7 @@
    <FileRef
       location = "group:LabelTransitionAnimations/LabelTransitionAnimations.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:KeezyButtonDemo/KeezyButtonDemo.xcodeproj">
+   </FileRef>
 </Workspace>
