@@ -31,7 +31,6 @@ open class CPKeezyView: UIView {
     
     
     func startAnimations() {
-        print("beforestart:\(state)")
         if state == .animating {
             return
         }
@@ -45,11 +44,9 @@ open class CPKeezyView: UIView {
         layer.add(scaleAnimation, forKey: zoomInKey)
         touchStartTime = NSDate()
         state = .animating
-        print("afterstart:\(state)")
     }
     
     func endAnimations() {
-        print("beforeend:\(state)")
         switch state {
         case .animating:
             let touchDuration = fabs(touchStartTime.timeIntervalSinceNow)
@@ -70,7 +67,6 @@ open class CPKeezyView: UIView {
         default:
             break
         }
-        print("afterend:\(state)")
     }
     
     func zoomoutAnimation(fromValue: Any?, toValue: Any?) -> CAAnimation{
