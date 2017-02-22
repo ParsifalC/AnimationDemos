@@ -41,9 +41,9 @@ extension ViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         UIView.animate(withDuration: 0.2, delay: 0.2, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.5, options: .autoreverse, animations: {
-            cell.transform = CGAffineTransform.init(scaleX: 0.6, y: 0.6)
+            cell.layer.transform = CATransform3DMakeScale(0.8, 0.8, 0.8)
         }) { (_) in
-            cell.transform = CGAffineTransform.identity
+            cell.layer.transform = CATransform3DIdentity
         }
     }
     
