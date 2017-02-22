@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Transform3DDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I6v-zH-fn0">
+                                <rect key="frame" x="137" y="283" width="100" height="100"/>
+                                <color key="backgroundColor" red="1" green="0.86742104090000005" blue="0.38273205719999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Jg8-Jz-SAz"/>
+                                    <constraint firstAttribute="width" constant="100" id="gZp-NZ-dbJ"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buw-qP-ltr">
+                                <rect key="frame" x="160.5" y="499" width="53" height="30"/>
+                                <state key="normal" title="yRotate"/>
+                                <connections>
+                                    <action selector="yRotate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BTy-5C-AVa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hp-kj-C8v">
+                                <rect key="frame" x="35.5" y="499" width="53" height="30"/>
+                                <state key="normal" title="xRotate"/>
+                                <connections>
+                                    <action selector="xRotate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p0u-2F-T2O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wQ-4a-2ux">
+                                <rect key="frame" x="286.5" y="499" width="53" height="30"/>
+                                <state key="normal" title="zRotate"/>
+                                <connections>
+                                    <action selector="zRotate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Wy-Xy-86S"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="I6v-zH-fn0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4n2-ht-neP"/>
+                            <constraint firstItem="I6v-zH-fn0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="O48-hU-aJC"/>
+                            <constraint firstItem="1wQ-4a-2ux" firstAttribute="centerY" secondItem="buw-qP-ltr" secondAttribute="centerY" id="eBN-Vb-hjF"/>
+                            <constraint firstItem="buw-qP-ltr" firstAttribute="leading" secondItem="2hp-kj-C8v" secondAttribute="trailing" constant="72" id="eZg-KT-3Rz"/>
+                            <constraint firstItem="1wQ-4a-2ux" firstAttribute="leading" secondItem="buw-qP-ltr" secondAttribute="trailing" constant="73" id="gDo-Iw-MzP"/>
+                            <constraint firstItem="2hp-kj-C8v" firstAttribute="centerY" secondItem="buw-qP-ltr" secondAttribute="centerY" id="ma8-xa-dlg"/>
+                            <constraint firstItem="buw-qP-ltr" firstAttribute="centerX" secondItem="I6v-zH-fn0" secondAttribute="centerX" id="oYn-1d-AYt"/>
+                            <constraint firstItem="buw-qP-ltr" firstAttribute="top" secondItem="I6v-zH-fn0" secondAttribute="bottom" constant="116" id="qW5-It-O3F"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="rotatedView" destination="I6v-zH-fn0" id="a6E-cc-rrL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
