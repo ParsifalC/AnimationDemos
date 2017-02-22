@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TableViewReloadAnimationDemo/TableViewReloadAnimationDemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Transform3DDemo/Transform3DDemo.xcodeproj">
    </FileRef>
    <FileRef
